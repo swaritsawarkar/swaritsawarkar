@@ -1,0 +1,33 @@
+name: Refresh public lab telemetry
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Render public metrics
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
+        run: node scripts/render-metrics.mjs
+
+      - name: Commit updated telemetry when data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/public-metrics.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh public lab telemetry"
+          git push
+

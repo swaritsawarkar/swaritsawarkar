@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="510" viewBox="0 0 1200 510" role="img" aria-labelledby="title desc">
+  <title id="title">Public lab telemetry for swaritsawarkar</title>
+  <desc id="desc">Current eligible public source repository count, language percentages by bytes, and recently pushed repositories.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#0b1727"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#a3e635"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#7dd3fc" stroke-opacity="0.05"/></pattern>
+    <style>
+      .mono{font-family:Consolas,ui-monospace,monospace}.title{font:700 25px Consolas,ui-monospace,monospace;fill:#f8fafc;letter-spacing:2px}.kicker{font:14px Consolas,ui-monospace,monospace;fill:#7dd3fc;letter-spacing:2px}.stat{font:700 27px Consolas,ui-monospace,monospace;fill:#f8fafc}.statlabel{font:12px Consolas,ui-monospace,monospace;fill:#64748b;letter-spacing:1px}.section{font:700 14px Consolas,ui-monospace,monospace;fill:#a3e635;letter-spacing:2px}.label{font:15px Consolas,ui-monospace,monospace;fill:#cbd5e1}.value{font:14px Consolas,ui-monospace,monospace;fill:#94a3b8}.repo{font:700 16px Consolas,ui-monospace,monospace;fill:#e2e8f0}.meta,.date{font:13px Consolas,ui-monospace,monospace;fill:#64748b}.foot{font:12px Consolas,ui-monospace,monospace;fill:#475569}
+    </style>
+  </defs>
+  <rect width="1200" height="510" rx="20" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="508" rx="19" fill="none" stroke="#1e3a5f"/><rect width="1200" height="510" rx="20" fill="url(#grid)"/>
+  <text x="50" y="48" class="kicker">PUBLIC LAB TELEMETRY // 2026-08-31</text>
+  <text x="50" y="84" class="title">REPOSITORY SIGNAL</text>
+  <rect x="50" y="100" width="1100" height="3" rx="2" fill="url(#line)"/>
+
+  <g transform="translate(600 0)">
+    <rect x="-550" y="119" width="208" height="72" rx="12" fill="#0c192b" stroke="#1e3a5f"/>
+    <text x="-530" y="151" class="stat">10</text><text x="-530" y="174" class="statlabel">SOURCE REPOS</text>
+    <rect x="-328" y="119" width="208" height="72" rx="12" fill="#0c192b" stroke="#1e3a5f"/>
+    <text x="-308" y="151" class="stat">11</text><text x="-308" y="174" class="statlabel">LANGUAGES DETECTED</text>
+    <rect x="-106" y="119" width="256" height="72" rx="12" fill="#0c192b" stroke="#1e3a5f"/>
+    <text x="-86" y="151" class="stat">Aug 31, 2026</text><text x="-86" y="174" class="statlabel">LATEST PROJECT PUSH</text>
+  </g>
+
+  <text x="60" y="223" class="section">LANGUAGE SIGNAL // BYTES</text>
+  <text x="650" y="223" class="section">RECENTLY PUSHED</text>
+  
+      <text x="60" y="258" class="label">TypeScript</text>
+      <text x="470" y="258" class="value" text-anchor="end">52.9%</text>
+      <rect x="60" y="268" width="410" height="8" rx="4" fill="#17243a"/>
+      <rect x="60" y="268" width="228" height="8" rx="4" fill="#3178c6"/>
+    
+      <text x="60" y="300" class="label">Python</text>
+      <text x="470" y="300" class="value" text-anchor="end">27.4%</text>
+      <rect x="60" y="310" width="410" height="8" rx="4" fill="#17243a"/>
+      <rect x="60" y="310" width="118" height="8" rx="4" fill="#3776ab"/>
+    
+      <text x="60" y="342" class="label">GDScript</text>
+      <text x="470" y="342" class="value" text-anchor="end">7.6%</text>
+      <rect x="60" y="352" width="410" height="8" rx="4" fill="#17243a"/>
+      <rect x="60" y="352" width="33" height="8" rx="4" fill="#478cbf"/>
+    
+      <text x="60" y="384" class="label">CSS</text>
+      <text x="470" y="384" class="value" text-anchor="end">3.1%</text>
+      <rect x="60" y="394" width="410" height="8" rx="4" fill="#17243a"/>
+      <rect x="60" y="394" width="13" height="8" rx="4" fill="#663399"/>
+    
+      <text x="60" y="426" class="label">Java</text>
+      <text x="470" y="426" class="value" text-anchor="end">2.9%</text>
+      <rect x="60" y="436" width="410" height="8" rx="4" fill="#17243a"/>
+      <rect x="60" y="436" width="13" height="8" rx="4" fill="#b07219"/>
+    
+  
+      <circle cx="666" cy="253" r="4" fill="#478cbf"/>
+      <text x="682" y="258" class="repo">dust-to-dollars-alpha</text>
+      <text x="1110" y="258" class="date" text-anchor="end">Aug 31, 2026</text>
+      <text x="682" y="280" class="meta">GDScript</text>
+    
+      <circle cx="666" cy="307" r="4" fill="#3776ab"/>
+      <text x="682" y="312" class="repo">wearable-gesture-to-speech</text>
+      <text x="1110" y="312" class="date" text-anchor="end">Aug 31, 2026</text>
+      <text x="682" y="334" class="meta">Python</text>
+    
+      <circle cx="666" cy="361" r="4" fill="#3178c6"/>
+      <text x="682" y="366" class="repo">sawarkar-swarit-portfolio</text>
+      <text x="1110" y="366" class="date" text-anchor="end">Aug 27, 2026</text>
+      <text x="682" y="388" class="meta">TypeScript</text>
+    
+      <circle cx="666" cy="415" r="4" fill="#3178c6"/>
+      <text x="682" y="420" class="repo">spsports-academy-reimagined</text>
+      <text x="1110" y="420" class="date" text-anchor="end">May 12, 2026</text>
+      <text x="682" y="442" class="meta">TypeScript</text>
+    
+  <line x1="600" y1="218" x2="600" y2="459" stroke="#1e3a5f"/>
+  <text x="50" y="486" class="foot">public source only • forks, archived repos, empty repos, and profile repo excluded • refreshed weekly</text>
+</svg>

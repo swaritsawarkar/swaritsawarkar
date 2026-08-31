@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Swarit Sawarkar developer laboratory</title>
+  <desc id="desc">Dark technical banner for AI, computer vision, robotics, and experimental builds.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1727"/>
+      <stop offset="1" stop-color="#071019"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7dd3fc" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="21" fill="none" stroke="#1e3a5f"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+
+  <path d="M54 54h76M54 54v42M1146 266h-76M1146 266v-42" fill="none" stroke="url(#accent)" stroke-width="3"/>
+  <circle cx="1096" cy="64" r="5" fill="#a3e635" filter="url(#glow)"/>
+  <text x="1114" y="70" fill="#a3e635" font-family="Consolas, ui-monospace, monospace" font-size="14">SYSTEM ONLINE</text>
+
+  <text x="64" y="98" fill="#7dd3fc" font-family="Consolas, ui-monospace, monospace" font-size="18" letter-spacing="4">DEVELOPER LAB // 01</text>
+  <text x="60" y="174" fill="#f8fafc" font-family="Inter, Segoe UI, sans-serif" font-size="58" font-weight="750" letter-spacing="2">SWARIT SAWARKAR</text>
+  <rect x="64" y="198" width="640" height="4" rx="2" fill="url(#accent)"/>
+  <text x="64" y="238" fill="#94a3b8" font-family="Consolas, ui-monospace, monospace" font-size="19" letter-spacing="2">BUILD // TEST // DOCUMENT // REPEAT</text>
+
+  <g font-family="Consolas, ui-monospace, monospace" font-size="15" font-weight="700">
+    <rect x="64" y="262" width="144" height="34" rx="17" fill="#0c2638" stroke="#0ea5e9"/>
+    <text x="86" y="284" fill="#7dd3fc">AI SYSTEMS</text>
+    <rect x="220" y="262" width="194" height="34" rx="17" fill="#0c2638" stroke="#0ea5e9"/>
+    <text x="242" y="284" fill="#7dd3fc">COMPUTER VISION</text>
+    <rect x="426" y="262" width="130" height="34" rx="17" fill="#172414" stroke="#84cc16"/>
+    <text x="448" y="284" fill="#bef264">ROBOTICS</text>
+    <rect x="568" y="262" width="226" height="34" rx="17" fill="#172414" stroke="#84cc16"/>
+    <text x="590" y="284" fill="#bef264">EXPERIMENTAL BUILDS</text>
+  </g>
+
+  <g transform="translate(900 116)" fill="none" stroke-linecap="round">
+    <circle cx="92" cy="46" r="54" stroke="#1e3a5f" stroke-width="2"/>
+    <circle cx="92" cy="46" r="35" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <path d="M38 46h108M92-8v108" stroke="#38bdf8" stroke-opacity="0.3"/>
+    <path d="M49 75c22-43 54-43 86 0" stroke="#a3e635" stroke-width="3" filter="url(#glow)"/>
+    <circle cx="92" cy="46" r="7" fill="#38bdf8" stroke="none" filter="url(#glow)"/>
+    <path d="M162 12l28-20M162 80l28 20M22 12L-6-8M22 80l-28 20" stroke="#334155" stroke-width="2"/>
+  </g>
+</svg>
+
