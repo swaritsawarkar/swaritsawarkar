@@ -23,7 +23,11 @@ Also: [10thHoJayega](https://github.com/swaritsawarkar/10thHoJayega) · [Chess T
 
 ## Language activity
 
-<sub>In-depth GitHub language analysis is configured here and will appear after the Metrics token is added. It analyzes actual repositories rather than inventing a stack list.</sub>
+<div align="center">
+  <img src="./metrics.languages.svg" alt="In-depth analysis of languages used across Swarit Sawarkar's repositories" width="100%" />
+</div>
+
+<sub>In-depth analysis of authored repository history. It excludes this profile repository and refreshes weekly.</sub>
 
 ## Contribution graph
 
